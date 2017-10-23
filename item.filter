@@ -1,11 +1,10 @@
 ﻿
-//SynFilter: An Item Filter for the Path of Diablo Mod
-//Filter: Standard
-//Version: 1.3.5
-//Created by: Synial
+//Minimalistic item filter for PoD Diablo II mod
+//Version: 0.1
+//Created by: z- aka Avertae
 //For questions, comments, feedback, or suggestions:
-//Contact on discord: Synial#0688
-//Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
+// wwarx1@gmail.com
+//Based on SynFilter
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -121,21 +120,21 @@ ItemDisplay[r21]: %ORANGE%%RUNENAME%
 ItemDisplay[r22]: %ORANGE%%RUNENAME%
 ItemDisplay[r23]: %ORANGE%%RUNENAME%
 //24-33
-ItemDisplay[r24]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r25]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r26]: %RED%¤ %RUNENAME% ¤
-//ItemDisplay[r27]: %RED%%RUNENAME%
-//ItemDisplay[r28]: %RED%%RUNENAME%
-//ItemDisplay[r29]: %RED%%RUNENAME%
-//ItemDisplay[r30]: %RED%%RUNENAME%
-ItemDisplay[r31]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r32]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r33]: %RED%¤ %RUNENAME% ¤
+ItemDisplay[r24]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r25]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r26]: %PURPLE%¤ %RUNENAME% ¤
+//ItemDisplay[r27]: %PURPLE%%RUNENAME%
+//ItemDisplay[r28]: %PURPLE%%RUNENAME%
+//ItemDisplay[r29]: %PURPLE%%RUNENAME%
+//ItemDisplay[r30]: %PURPLE%%RUNENAME%
+ItemDisplay[r31]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r32]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r33]: %PURPLE%¤ %RUNENAME% ¤
 //High Value Runes (3.0+)
-ItemDisplay[r27]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r28]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r29]: %RED%¤ %RUNENAME% ¤
-ItemDisplay[r30]: %RED%¤ %RUNENAME% ¤
+ItemDisplay[r27]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r28]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r29]: %PURPLE%¤ %RUNENAME% ¤
+ItemDisplay[r30]: %PURPLE%¤ %RUNENAME% ¤
 //
 
 //misc quest
@@ -230,104 +229,104 @@ ItemDisplay[GEM=5 GEMTYPE=7]: %WHITE%Perfect Skull
 //
 //Helms
 //Griffon's Eye
-ItemDisplay[UNI !ID ci3]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID ci3]: %PURPLE%¤ %NAME% ¤
 //Shako
-ItemDisplay[UNI !ID uap]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID uap]: %PURPLE%¤ %NAME% ¤
 //Crown of Ages
-ItemDisplay[UNI !ID urn]: %RED%%NAME%
+ItemDisplay[UNI !ID urn]: %PURPLE%%NAME%
 //Andariel's Visage
-ItemDisplay[UNI !ID usk]: %RED%%NAME%
+ItemDisplay[UNI !ID usk]: %PURPLE%%NAME%
 //Vampire Gaze
-ItemDisplay[UNI !ID xh9]: %RED%%NAME%
+ItemDisplay[UNI !ID xh9]: %PURPLE%%NAME%
 //Arreat's Face
-ItemDisplay[UNI !ID baa]: %RED%%NAME%
+ItemDisplay[UNI !ID baa]: %PURPLE%%NAME%
 //Jalal's Mane
-ItemDisplay[UNI !ID dra]: %RED%%NAME%
+ItemDisplay[UNI !ID dra]: %PURPLE%%NAME%
 //Ravenlore
-ItemDisplay[UNI !ID dre]: %RED%%NAME%
+ItemDisplay[UNI !ID dre]: %PURPLE%%NAME%
 //G Face
-ItemDisplay[SET !ID xhm]: %NAME% %RED%¤
+ItemDisplay[SET !ID xhm]: %PURPLE% %RED%¤
 
 
 //Armor
 //Duriel's Shell
-//ItemDisplay[UNI !ID xrs]: %RED% %NAME%
+//ItemDisplay[UNI !ID xrs]: %PURPLE% %NAME%
 //ETH Shaftstop 
-ItemDisplay[UNI !ID xhn]: %RED%%NAME%
+ItemDisplay[UNI !ID xhn]: %PURPLE%%NAME%
 //Tyrael's Might
-ItemDisplay[UNI !ID uar]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID uar]: %PURPLE%¤ %NAME% ¤
 //Guardian Angel
-//ItemDisplay[UNI !ID xlt]: %RED%¤ %NAME% ¤
+//ItemDisplay[UNI !ID xlt]: %PURPLE%¤ %NAME% ¤
 //Tal Rasha Armor
-ItemDisplay[SET !ID uth]: %RED%¤ %NAME% ¤
+ItemDisplay[SET !ID uth]: %PURPLE%¤ %NAME% ¤
 
 
 //Gloves
 //Dracul's Grasp
-ItemDisplay[UNI !ID uvg]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID uvg]: %PURPLE%¤ %NAME% ¤
 //Steelrend
-ItemDisplay[UNI !ID uhg]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID uhg]: %PURPLE%¤ %NAME% ¤
 
 //Belts
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID ulc]: %PURPLE%¤ %NAME% ¤
 //Verdungo's Hearty Cord
-ItemDisplay[UNI !ID umc]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID umc]: %PURPLE%¤ %NAME% ¤
 //String of Ears
-ItemDisplay[UNI !ID zlb]: %RED%%NAME%
+ItemDisplay[UNI !ID zlb]: %PURPLE%%NAME%
 //Razortail
-//ItemDisplay[UNI !ID zvb]: %RED%%NAME%
+//ItemDisplay[UNI !ID zvb]: %PURPLE%%NAME%
 //Thundergod's Vigor
-ItemDisplay[UNI !ID zhb]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID zhb]: %PURPLE%¤ %NAME% ¤
 
 
 //Boots
 //War Traveler
-ItemDisplay[UNI !ID xtb]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID xtb]: %PURPLE%¤ %NAME% ¤
 //Shadow Dancer
-ItemDisplay[UNI !ID uhb]: %RED%%NAME%
+ItemDisplay[UNI !ID uhb]: %PURPLE%%NAME%
 //ETH Sandstorm Trek
-ItemDisplay[UNI ETH !ID uvb]: %RED%¤ ETH %NAME% ¤
+ItemDisplay[UNI ETH !ID uvb]: %PURPLE%¤ ETH %NAME% ¤
 
 //Weapons
 //Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
-ItemDisplay[UNI !ID obf]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID obf]: %PURPLE%¤ %NAME% ¤
 //Death's Web
-ItemDisplay[UNI !ID 7gw]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 7gw]: %PURPLE%¤ %NAME% ¤
 //Eschuta's
-ItemDisplay[UNI !ID obc]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID obc]: %PURPLE%¤ %NAME% ¤
 //Windforce
-ItemDisplay[UNI !ID 6lw]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 6lw]: %PURPLE%¤ %NAME% ¤
 //Reaper's Toll
-ItemDisplay[UNI !ID 7s8]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 7s8]: %PURPLE%¤ %NAME% ¤
 //Lacerator
-ItemDisplay[UNI !ID 7b8]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 7b8]: %PURPLE%¤ %NAME% ¤
 //Azurewrath
-ItemDisplay[UNI !ID 7cr]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 7cr]: %PURPLE%¤ %NAME% ¤
 //Tombreaver
-ItemDisplay[UNI !ID 7pa]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID 7pa]: %PURPLE%¤ %NAME% ¤
 //Titan's Revenge
-ItemDisplay[UNI !ID ama]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID ama]: %PURPLE%¤ %NAME% ¤
 
 
 //Shields
 //Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
-ItemDisplay[UNI !ID uit]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID uit]: %PURPLE%¤ %NAME% ¤
 //Homunculus
-ItemDisplay[UNI !ID nea]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID nea]: %PURPLE%¤ %NAME% ¤
 //Herald of Zakarum
-ItemDisplay[UNI !ID pa9]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID pa9]: %PURPLE%¤ %NAME% ¤
 //Darkforce Spawn
-ItemDisplay[UNI !ID nef]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID nef]: %PURPLE%¤ %NAME% ¤
 //Medusa's Gaze
-//ItemDisplay[UNI !ID uow]: %RED%¤ %NAME% ¤
+//ItemDisplay[UNI !ID uow]: %PURPLE%¤ %NAME% ¤
 //Alma Negra
-//ItemDisplay[UNI !ID pac]: %RED%¤ %NAME% ¤
+//ItemDisplay[UNI !ID pac]: %PURPLE%¤ %NAME% ¤
 //Radament's Sphere
-//ItemDisplay[UNI !ID xts]: %RED%¤ %NAME% ¤
+//ItemDisplay[UNI !ID xts]: %PURPLE%¤ %NAME% ¤
 
 //Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %RED%¤ %NAME% ¤
+ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %PURPLE%¤ %NAME% ¤
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
